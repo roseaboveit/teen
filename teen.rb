@@ -7,6 +7,29 @@ class Teen
 	end
 
 	def evaluate_message
+		if  #yell method returns true boolean
 
+		elsif #question method returns true boolean
+			
+		elsif #silence method returns true boolean
+
+		else
+
+		end
 	end
+
+	def yell
+		if message == message.upcase
+			puts "Timmy says \"Woah, chill out!\""
+		end
+	end
+
+	def question
+		
+	end
+
+	def silence
+		
+	end
+
 end
