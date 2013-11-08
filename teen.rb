@@ -25,11 +25,13 @@ class Teen
 	end
 
 	def question
-		
-	end
+    if message.include? "?"
+      puts "Sure..... "
+    end
+
+  end
 
 	def silence
 		
 	end
-
 end
