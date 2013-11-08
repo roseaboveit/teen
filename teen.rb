@@ -1,5 +1,5 @@
 class Teen
-
+  
   def initialize
     puts "What do you want to ask our Timmy?"
     message = gets.chomp
@@ -12,7 +12,7 @@ class Teen
     elsif question #question method returns true boolean
       puts "Sure..... "
     elsif #silence method returns true boolean
-
+      puts "Fine be that way"
     else
       puts "Whatever"
     end
@@ -36,6 +36,10 @@ class Teen
   end
 
   def silence
-    
+    if message == nil || message == "..." || message == " "
+      true
+    else
+      false
+    end              
   end
 end
